@@ -1,0 +1,14 @@
+
+body{margin:0;font-family:Poppins;background:#f4f4f4;}
+header{background:#003366;color:white;padding:20px;text-align:center;}
+nav a{color:gold;margin:0 10px;text-decoration:none;font-weight:bold;}
+.logo{font-size:28px;font-weight:bold}
+.slider{height:350px;overflow:hidden}
+.slides{display:flex;width:300%;animation:slide 12s infinite}
+.slide{width:100%;background-size:cover;background-position:center;position:relative}
+.caption{position:absolute;bottom:60px;left:30px;color:white;font-size:22px;text-shadow:2px 2px 4px black}
+.features,.pricing,.teachers,.course-cards{display:flex;justify-content:center;gap:20px;padding:20px;flex-wrap:wrap}
+.feature,.pbox,.tcard,.card{background:white;padding:25px;border-radius:10px;box-shadow:0 4px 8px #0002;text-align:center;width:200px}
+.reviews .rev{background:white;padding:20px;margin:15px;border-radius:10px;box-shadow:0 3px 8px #0002}
+.form input,button{display:block;width:90%;margin:10px auto;padding:12px}
+.btn{background:gold;color:#003366;padding:10px 20px;text-decoration:none;border-radius:5px}
